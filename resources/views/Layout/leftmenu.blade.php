@@ -60,6 +60,13 @@
               <i class="mdi mdi-contacts menu-icon"></i>
               </a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="{{URL::to('/')}}/AAA/test">
+                <span class="menu-title">Testing menu</span>
+              <i class="mdi mdi-contacts menu-icon"></i>
+              </a>
+            </li>
           
            
           </ul>

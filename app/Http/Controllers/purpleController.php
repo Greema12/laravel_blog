@@ -252,7 +252,15 @@ public function studentlist12()
 		
 }
 
+public function testing()
+		{
 
+		 $studentlist = DB::table('school')->get();
+
+		 return view('AAA.test',compact('studentlist'));
+
+		
+}
 
 
 

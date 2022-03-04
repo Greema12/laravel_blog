@@ -78,3 +78,4 @@ Route::post('/Student/store','PurpleController@storepic');
 Route::get('/Student/student' ,'purpleController@studentlist');
 Route::get('/Student/studentview' ,'purpleController@studentlist12');
 
+Route::get('/AAA/test' ,'purpleController@testing');
